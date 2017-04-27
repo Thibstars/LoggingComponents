@@ -1,0 +1,28 @@
+@mixin lctheme {
+  .log {
+    .info {
+      color: greenyellow;
+      white-space: normal;
+    }
+
+    .debug {
+      color: teal;
+      white-space: normal;
+    }
+
+    .warn {
+      color: yellow;
+      white-space: normal;
+    }
+
+    .error {
+      color: red;
+      white-space: normal;
+    }
+
+    .fatal {
+      color: red;
+      white-space: normal;
+    }
+  }
+}
