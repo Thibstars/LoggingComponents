@@ -1,14 +1,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
     <groupId>be.thibaulthelsmoortel</groupId>
     <artifactId>logging-components</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>LoggingComponents</name>
     <packaging>bundle</packaging>
+
     <organization>
         <name>Vaadin Community</name>
     </organization>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <vaadin.version>8.0.3</vaadin.version>
@@ -23,15 +26,18 @@
         <github.account>Thibstars</github.account>
         <github.project>LoggingComponents</github.project>
     </properties>
+
     <scm>
         <url>https://github.com/${github.account}/${github.project}</url>
         <connection>scm:git:git://github.com/${github.account}/${github.project}.git</connection>
         <developerConnection>scm:git:ssh://git@github.com:/${github.account}/${github.project}.git</developerConnection>
     </scm>
+
     <issueManagement>
         <system>GitHub</system>
         <url>https://github.com/${github.account}/${github.project}/issues</url>
     </issueManagement>
+
     <licenses>
         <license>
             <name>Apache 2</name>
@@ -39,6 +45,7 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
+
     <dependencies>
         <dependency>
             <groupId>com.vaadin</groupId>
@@ -74,6 +81,7 @@
             <version>2.8.2</version>
         </dependency>
     </dependencies>
+
    <repositories>
         <repository>
             <id>vaadin-addons</id>
