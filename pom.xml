@@ -4,7 +4,7 @@
 
     <groupId>be.thibaulthelsmoortel</groupId>
     <artifactId>logging-components</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.2</version>
     <name>LoggingComponents</name>
     <packaging>bundle</packaging>
 
